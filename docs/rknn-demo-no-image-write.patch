@@ -1,0 +1,42 @@
+--- main.cc.orig	2026-09-12 15:02:44
++++ main.cc	2026-09-12 15:05:12
+@@ -43,6 +43,14 @@
+     const char *model_path = argv[1];
+     const char *image_path = argv[2];
+
++    // Draw boxes and write the output image only on request: encoding a
++    // 2304x1296 PNG costs most of the inference time, and the trap never uses
++    // that image - it parses only the printf result lines. Set
++    // RKNN_OUT_IMAGE=<path> to get an annotated image (useful when calibrating
++    // the confidence threshold). The declaration must live HERE, before the
++    // first "goto out" - otherwise the compiler rightly complains that the
++    // jump crosses the initialisation of this variable.
++    const char *out_image = getenv("RKNN_OUT_IMAGE");
++
+     int ret;
+     rknn_app_context_t rknn_app_ctx;
+     memset(&rknn_app_ctx, 0, sizeof(rknn_app_context_t));
+@@ -101,13 +109,19 @@
+         int x2 = det_result->box.right;
+         int y2 = det_result->box.bottom;
+
+-        draw_rectangle(&src_image, x1, y1, x2 - x1, y2 - y1, COLOR_BLUE, 3);
++        if (out_image)
++        {
++            draw_rectangle(&src_image, x1, y1, x2 - x1, y2 - y1, COLOR_BLUE, 3);
+
+-        sprintf(text, "%s %.1f%%", coco_cls_to_name(det_result->cls_id), det_result->prop * 100);
+-        draw_text(&src_image, text, x1, y1 - 20, COLOR_RED, 10);
++            sprintf(text, "%s %.1f%%", coco_cls_to_name(det_result->cls_id), det_result->prop * 100);
++            draw_text(&src_image, text, x1, y1 - 20, COLOR_RED, 10);
++        }
+     }
+
+-    write_image("out.png", &src_image);
++    if (out_image)
++    {
++        write_image(out_image, &src_image);
++    }
+
+ out:
+     deinit_post_process();

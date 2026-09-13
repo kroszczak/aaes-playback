@@ -1,0 +1,15 @@
+#!/bin/sh
+# Demon ratunkowy - startuje PRZED birdbox (S99), zeby czuwac od poczatku.
+case "$1" in
+  start)
+    echo "Start recoveryd..."
+    /usr/bin/python3 /root/recoveryd.py >/tmp/recoveryd.log 2>&1 &
+    ;;
+  stop)
+    killall -f recoveryd.py 2>/dev/null
+    ;;
+  *)
+    exit 1
+    ;;
+esac
+exit 0

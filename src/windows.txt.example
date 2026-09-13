@@ -1,0 +1,15 @@
+# Okna czasowe fotopułapki - skopiuj na kartę SD jako /mnt/sdcard/windows.txt
+#
+# Jedna linia na okno, format HH:MM-HH:MM (czas LOKALNY, ta sama strefa co DS3231).
+# Linie puste i zaczynające się od # są ignorowane.
+#
+# DS3231 ma tylko DWA alarmy sprzętowe, więc działają maksymalnie dwa okna
+# dziennie - nadmiarowe zostaną odrzucone z ostrzeżeniem w logu.
+# Okna przechodzące przez północ nie są wspierane.
+#
+# Gdy tego pliku nie ma albo wszystkie linie są błędne, kod używa wartości
+# domyślnych z config.py (06:00-08:00 i 18:00-20:00) - literówka na karcie
+# nie unieruchomi pułapki w terenie.
+
+06:00-08:00
+18:00-20:00
