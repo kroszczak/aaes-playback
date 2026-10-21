@@ -31,6 +31,10 @@ unit draws 400 mA.
 The decoy is part of the experimental stimulus, not the instrument, and is not counted
 here.
 
+## Funding
+
+Parts purchased for this build were charged to project **201/34/UAM/0068** (Study@research, ID UB), Adam Mickiewicz University, Poznań. Invoices and settlement documents should carry the same identifier.
+
 ## Connections
 
 | Signal | Where | Notes |

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Grant: Study@research (ID UB), project no. 201/34/UAM/0068, Adam Mickiewicz University, Poznań
 """Rezydentny demon ratunkowy - jedyna droga do restartu, gdy NAND przestaje czytać.
 
 Problem: gdy pamięć NAND zaczyna gubić odczyty, KAŻDE uruchomienie programu zawodzi.

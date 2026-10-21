@@ -1,3 +1,4 @@
+# Grant: Study@research (ID UB), project no. 201/34/UAM/0068, Adam Mickiewicz University, Poznań
 """Konfiguracja fotopułapki - jedno miejsce na wszystkie parametry.
 
 Architektura "aktywnego wabika": RTC budzi płytkę na start okna czasowego,

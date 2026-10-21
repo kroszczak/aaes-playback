@@ -1,3 +1,4 @@
+# Grant: Study@research (ID UB), project no. 201/34/UAM/0068, Adam Mickiewicz University, Poznań
 # Okna czasowe fotopułapki - skopiuj na kartę SD jako /mnt/sdcard/windows.txt
 #
 # Jedna linia na okno, format HH:MM-HH:MM (czas LOKALNY, ta sama strefa co DS3231).

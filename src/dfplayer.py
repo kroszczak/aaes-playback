@@ -1,3 +1,4 @@
+# Grant: Study@research (ID UB), project no. 201/34/UAM/0068, Adam Mickiewicz University, Poznań
 """Sterowanie modułem DFPlayer Mini przez UART + GPIO.
 
 Audio jest tu celowo odseparowane od USB: w RV1106 jeden fizyczny kontroler

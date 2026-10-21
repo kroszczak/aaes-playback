@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Grant: Study@research (ID UB), project no. 201/34/UAM/0068, Adam Mickiewicz University, Poznań
 """Pomiar czasu inferencji NPU: stare demo (zapis out.png) vs nowe (bez zapisu).
 
 Uruchom z dwiema binarkami obok siebie, żeby porównać na TYM SAMYM obrazie:

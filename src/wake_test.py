@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Grant: Study@research (ID UB), project no. 201/34/UAM/0068, Adam Mickiewicz University, Poznań
 """Test pełnej pętli: ustaw budzik za N minut, uśpij płytkę, sprawdź czy wstanie.
 
 Po co: to jedyny element, którego nie da się sprawdzić przy zasilaniu z pominięciem

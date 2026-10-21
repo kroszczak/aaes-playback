@@ -1,4 +1,5 @@
 #!/bin/sh
+# Grant: Study@research (ID UB), project no. 201/34/UAM/0068, Adam Mickiewicz University, Poznań
 # Przenosi na kartę SD wszystko, co jest wielokrotnie uruchamiane w trakcie okna.
 # Cel: zdjąć z NAND-a odczyty na ścieżce krytycznej. Binarki i biblioteki są
 # mapowane z systemu plików, więc każde uruchomienie enkodera to seria page-inów

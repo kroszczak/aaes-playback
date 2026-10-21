@@ -182,3 +182,7 @@ without third-party kexts, so Ethernet is the practical route.
 
 Note that the USB-A and USB-C ports cannot be used at the same time; switch modes with
 `luckfox-config` → Advanced Options → USB.
+
+---
+
+Funded by Study@research (ID UB), Adam Mickiewicz University, Poznań. Project number: **201/34/UAM/0068**.

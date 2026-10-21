@@ -1,4 +1,5 @@
 #!/bin/sh
+# Grant: Study@research (ID UB), project no. 201/34/UAM/0068, Adam Mickiewicz University, Poznań
 # Przygotowanie pulapki do wyjazdu w teren. Nic nie kasuje bezpowrotnie -
 # material testowy trafia do archiwum na karcie.
 set -u

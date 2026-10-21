@@ -1,3 +1,4 @@
+# Grant: Study@research (ID UB), project no. 201/34/UAM/0068, Adam Mickiewicz University, Poznań
 """FALLBACK: stara logika wybudzania czujnikiem PIR. NIEUŻYWANA w pętli głównej.
 
 Zachowane celowo, na wypadek gdyby test terenowy kazał wrócić do wykrywania

@@ -1,3 +1,4 @@
+# Grant: Study@research (ID UB), project no. 201/34/UAM/0068, Adam Mickiewicz University, Poznań
 """DS3231 na I2C - budzik wyznaczający starty okien czasowych.
 
 Logika BCD i układ rejestrów przeniesione z /root/rtc_setup.sh, który działał

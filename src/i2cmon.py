@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Grant: Study@research (ID UB), project no. 201/34/UAM/0068, Adam Mickiewicz University, Poznań
 """Monitor magistrali I2C modułu DS3231 - do lokalizacji uszkodzonego przewodu.
 
 Pyta 5x/s oba układy modułu ZS-042: zegar DS3231 (0x68) i EEPROM AT24C32 (0x50).

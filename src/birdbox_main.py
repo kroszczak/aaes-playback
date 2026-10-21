@@ -1,3 +1,4 @@
+# Grant: Study@research (ID UB), project no. 201/34/UAM/0068, Adam Mickiewicz University, Poznań
 """Fotopułapka ornitologiczna - pętla "aktywnego wabika".
 
 RTC (DS3231) budzi płytkę na START okna czasowego. Przez CAŁE okno system

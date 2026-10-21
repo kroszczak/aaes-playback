@@ -254,3 +254,8 @@ Klipy to surowy MJPEG — VLC otwiera je bezpośrednio. Konwersja do MP4:
 ```bash
 ffmpeg -framerate 15 -i bird_20260911_141208.mjpeg -c:v libx264 -pix_fmt yuv420p klip.mp4
 ```
+
+## Finansowanie
+
+Projekt sfinansowany z programu **Study@research**, Inicjatywa Doskonałości – Uczelnia Badawcza (ID UB), Uniwersytet im. Adama Mickiewicza w Poznaniu. Numer projektu: **201/34/UAM/0068**.
+Numer grantu należy podawać we wszystkich rozliczeniach, sprawozdaniach i publikacjach dotyczących projektu.

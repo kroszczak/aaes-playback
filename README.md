@@ -182,6 +182,11 @@ Windows are configured in a plain text file on the card (`HH:MM-HH:MM`, one per 
 so the schedule can be changed in the field without a console. Creating a file named
 `STOP` on the card halts the automation the same way.
 
+## Funding
+
+This work was funded by the **Study@research** programme (Initiative of Excellence – Research University, ID UB), Adam Mickiewicz University, Poznań. Project number: **201/34/UAM/0068**.
+Please quote the grant identifier when citing or reporting on this project.
+
 ## License
 
 MIT — see [LICENSE](LICENSE). The RKNN demo patch applies to Rockchip's sample code,
